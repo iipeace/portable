@@ -1,0 +1,4 @@
+PYTHONHOME="${0%/*}"
+[ -f $PYTHONHOME/guider.pyc ] && GUIDER=$PYTHONHOME/guider.pyc
+[ -z $GUIDER ] && [ -f $PYTHONHOME/guider.py ] && GUIDER=$PYTHONHOME/guider.py
+LD_LIBRARY_PATH=$PYTHONHOME/lib PYTHONPATH=$PYTHONHOME:$PYTHONHOME/lib $PYTHONHOME/bin/python $GUIDER "$@"
