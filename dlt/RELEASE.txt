@@ -1,0 +1,3 @@
+https://github.com/COVESA/dlt-viewer/releases/download/v2.25.0/DLT-Windows-sdk.zip
+https://github.com/COVESA/dlt-viewer/releases/download/v2.25.0/DLT-Linux.zip
+https://github.com/COVESA/dlt-viewer/releases/download/v2.25.0/DLT-macOS.zip
